@@ -1,0 +1,14 @@
+[project]
+name = "ansys-home"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyvista>=0.44.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.6",
+]
