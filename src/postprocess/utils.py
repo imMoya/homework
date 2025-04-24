@@ -46,7 +46,7 @@ def compute_drag(
     wall_shear = surface[shear_name]
 
     normals = surface.cell_normals
-    areas = surface.compute_cell_sizes()['Area']
+    areas = surface.compute_cell_sizes()["Area"]
 
     pressure_force_x = pressure * normals[:, 0] * areas
     shear_force = wall_shear * areas
