@@ -1,12 +1,10 @@
 from .utils import (
     closest_point_projection_to_surface,
     sum_surface_variables,
+    subtract_surface_variables,
     compute_drag,
 )
-from .plot import (
-    MeshPlotData,
-    plot_meshes
-)
+from .plot import MeshPlotData, plot_meshes
 
 __all__ = [
     "closest_point_projection_to_surface",
@@ -14,4 +12,5 @@ __all__ = [
     "MeshPlotData",
     "plot_meshes",
     "sum_surface_variables",
+    "subtract_surface_variables",
 ]
